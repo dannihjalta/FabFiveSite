@@ -1,26 +1,26 @@
 body{
-    background-color: blanchedalmond;
+    margin: 0;
+    background-color: transparent;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
+    color: #000000;
+}
+header{
+    background-color: #000000;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    color: #ffffff;
+    
 }
 
-h1{
-font-size: 50px; 
-color: teal;
-
+h1, h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
 }
 
-h2{
-font-size: 50px;
-color: red;
 
-
-}
-
-.big{
-font-size: 60px;
-}
-.uppercase{
-text-transform: uppercase;
-}
-span{
-color: violet;
+header img{
+    width: 100%;
+    border color: 50px; solid #ffffff;
 }
