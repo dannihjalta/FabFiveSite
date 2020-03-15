@@ -2,16 +2,18 @@ body{
     margin: 0;
     text-align: center;
     background-color: #352d2d;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-family: 'Archivo Black', sans-serif;
+    line height: 30px;
     color: #ffffff;
-    
-        
-
-
+    max-width: 800px;
+    background-image: url("https://lh3.googleusercontent.com/1w4Mq98FYGi-lkhwRDgmo8UfhDdGHZXa7HN6dBxjTkphA52SkGdDa5karBUIs5fnHHuKhcVSpYgb2sC89qsLvyAdwuX9LMqkitmAQ_Kz4B85q_2qgl1lRzW14HXB1fcupjjobmzPuTSj0cAbgT4S1LXloij3ekNBZANdkZgWhvwJRyqjDEfj9dywvNsd3bl6Qp4FEt1_0xwBAm1M-_QanATKmfeouaKwEW5gyWuHT09jGFV5akWzoE4MtEadSgOyHl5AfzcPLqsCNkd_75erBAvXumVtbJ6sBtIzEj3BIyvzLqCZutbEwts1xEmWS1rsZ4JNzCUlPeQw6FFaKgOppZEh5rtKg2vY-0MDG7pV_xmBLCVzl4AkcYoZT8CsoeBmGbMjq47GhVbSnx6w-7SBFemz3HyxByAkoqb5zl6Z-zoq4e-ZV6U2NR7DXJ3d60grjEdMGdGy5zRQh6hTabO_oKZGgOe-H9zOWvlpPfm4GOFD6-6aiNxmD9Gwq2Jw-pqDozXAPH0ngFP_cbc434wIIHfyWLkHj3qrmd6XOAKRRZq3GbEHx5Xq-j2Mynm-eQ_EY3_ZKcz7_acaGbAGdUPDRSYsFbyXn77CsN4s68niKFxXq2JzcUE0nqb1_fZDytKX_HJRezCKh6bgDELRCAxTZs8oz-HS8wBQ8F-TF8nvQyfICwiKIyaawUqTxGy0EFY=s3-no");        
+    background-repeat: repeat;
+    background-position: center;
+    margin: 0 auto;
 }
 header{
-        padding-top: 20px;
+    border: solid ;
+    border size: 30px;
+    padding-top: 20px;
 }
 
 h1, h2{
@@ -19,18 +21,20 @@ h1, h2{
     font-family: 'Archivo Black', sans-serif;
 }
 p{
-    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
 
 header img{
-    width: 100%;
-    
+    width: 800px;
 }
 main{
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    
+}
+div{
+    
 }
 a:hover{
     color: white;
